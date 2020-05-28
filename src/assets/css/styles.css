@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+
+
+.nav {
+    @apply flex items-center justify-between flex-wrap bg-gray-100 p-6 w-full fixed z-50 top-0;
+}
+
+.nav-item {
+    @apply flex items-center flex-shrink-0 text-gray-900 mr-6;
+}
+
+.nav-link {
+    @apply inline-block text-gray-900 no-underline py-2 px-4;
+}
+
+.logo {
+    @apply text-gray-600 no-underline;
+}
+
+.nav-btn {
+    @apply flex items-center px-3 py-2 border rounded text-gray-900 border-gray-600;
+}
+
+.nav-content {
+    @apply w-full flex-grow;
+}
+
+.home {
+    @apply w-full mx-auto;
+}
+
+.heading {
+    @apply text-xl w-3/5 mx-auto tracking-wider font-bold mt-20;
+}
+
+.info {
+    @apply text-lg px-8 w-full tracking-wider mx-auto;
+}
+
+.services {
+    @apply w-full mx-auto;
+}
+
+.servicesHeading {
+    @apply text-3xl tracking-wider font-semibold mt-20 mb-10;
+}
+
+.sl {
+    @apply w-full mb-8 px-2;
+}
+
+.sl2 {
+    @apply rounded shadow-lg border py-8;
+}
+
+.dev {
+    @apply text-2xl font-bold mb-4;
+}
+
+.dev1 {
+    @apply text-xl px-4 tracking-wider;
+}
+
+.btn {
+    @apply px-3 py-2 bg-blue-500 font-bold h-16 text-white mt-16 mb-10 rounded-lg text-xl w-48;
+}
+
+.container {
+    @apply my-10 w-10/12 mx-auto;
+}
+
+.getintouch {
+    @apply text-4xl font-extrabold tracking-wider my-16;
+}
+
+.git {
+    @apply w-full mb-8 px-4;
+}
+
+.gitt {
+    @apply text-xl font-bold px-4 tracking-widest;
+}
+
+@screen sm {
+    .sm-screen {
+        height: 60vh;
+    }
+}
+
+@screen md {
+    .heading {
+        @apply text-3xl;
+    }
+}
+
+@screen lg {
+    .nav-content {
+        @apply flex items-center w-auto hidden block pt-6 pt-0;
+    }
+
+    .nav-link {
+        @apply text-xl;
+    }
+
+    .heading {
+        @apply text-4xl;
+    }
+
+    .info {
+        @apply text-2xl;
+    }
+
+    .servicesHeading {
+        @apply text-5xl;
+    }
+
+    .sl {
+        @apply w-1/3;
+    }
+
+    .git {
+        @apply w-1/2;
+    }
+}
+
+@screen xl {
+    .heading {
+        @apply text-4xl;
+    }
+
+    .info {
+        @apply w-10/12 text-3xl px-2;
+    }
+
+    .servicesHeading {
+        @apply font-extrabold text-5xl;
+    }
+
+    .sl {
+        @apply w-1/3;
+    }
+
+    .git {
+        @apply w-1/2;
+    }
+}
+
+@tailwind utilities;
