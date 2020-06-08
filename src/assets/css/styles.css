@@ -26,6 +26,10 @@
     @apply w-full flex-grow;
 }
 
+.carousel-caption {
+    @apply text-white text-5xl;
+}
+
 .home {
     @apply w-full mx-auto;
 }
